@@ -1,0 +1,117 @@
+Dependencies for Project 'TEST', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f40_41xxx.s)(0x542E6B04)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F40_41xxx SETA 1"--list ..\obj\startup_stm32f40_41xxx.lst --xref -o ..\obj\startup_stm32f40_41xxx.o --depend ..\obj\startup_stm32f40_41xxx.d)
+F (.\test.c)(0x58529049)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE-I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (..\SYSTEM\delay\delay.h)(0x555D4A38)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5C)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\LED\led.h)(0x53660F46)
+I (..\HARDWARE\LCD\lcd.h)(0x55C08D4E)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\KEY\key.h)(0x53BB65F4)
+I (..\USMART\usmart.h)(0x53FF1B0E)
+I (..\USMART\usmart_str.h)(0x53FF1B0E)
+I (..\HARDWARE\REMOTE\remote.h)(0x53FAC1D4)
+I (..\HARDWARE\WKUP\wkup.h)(0x5368755A)
+I (..\HARDWARE\BEEP\beep.h)(0x541D369A)
+F (..\SYSTEM\delay\delay.c)(0x55BF04B2)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE-I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555D4A38)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+F (..\SYSTEM\sys\sys.c)(0x5528CA86)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE-I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+F (..\SYSTEM\usart\usart.c)(0x5528CD70)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE-I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5C)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\HARDWARE\LED\led.c)(0x53FEB8D8)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE-I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x53660F46)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+F (..\HARDWARE\LCD\ILI93xx.c)(0x55C09180)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE-I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\ili93xx.o --omf_browse ..\obj\ili93xx.crf --depend ..\obj\ili93xx.d)
+I (..\HARDWARE\LCD\lcd.h)(0x55C08D4E)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\font.h)(0x52C52FE8)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5C)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555D4A38)
+F (..\HARDWARE\REMOTE\remote.c)(0x53FFF5CC)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE-I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\remote.o --omf_browse ..\obj\remote.crf --depend ..\obj\remote.d)
+I (..\HARDWARE\REMOTE\remote.h)(0x53FAC1D4)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (..\SYSTEM\delay\delay.h)(0x555D4A38)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5C)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\dws\DEmo\HARDWARE\WKUP\wkup.c)(0x58528255)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE-I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\wkup.o --omf_browse ..\obj\wkup.crf --depend ..\obj\wkup.d)
+I (..\..\..\..\dws\DEmo\HARDWARE\WKUP\wkup.h)(0x5368755A)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (..\HARDWARE\LED\led.h)(0x53660F46)
+I (..\SYSTEM\delay\delay.h)(0x555D4A38)
+I (..\HARDWARE\RTC\rtc.h)(0x53D343C8)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5C)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (F:\smj\探索者A\4，程序源码\2，标准例程-库函数版本\实验2 蜂鸣器实验\HARDWARE\BEEP\beep.c)(0x58527B69)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE-I C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE-I D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\beep.o --omf_browse ..\obj\beep.crf --depend ..\obj\beep.d)
+I (F:\smj\鎺㈢储鑰匒\4锛岀▼搴忔簮鐮乗2锛屾爣鍑嗕緥绋?搴撳嚱鏁扮増鏈琝瀹為獙2 铚傞福鍣ㄥ疄楠孿HARDWARE\BEEP\beep.h)(0x00000000)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABE)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D532)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D532)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D532)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+F (..\readme.txt)(0x55C02654)()

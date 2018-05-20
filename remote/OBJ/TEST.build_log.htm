@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zhnagsan admin, zhangsan, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\TEST.uvprojx
+Project File Date:  11/28/2016
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_stm32f40_41xxx.s...
+compiling test.c...
+test.c(82): warning:  #223-D: function "WKUP_Sleep1" declared implicitly
+                                                WKUP_Sleep1();//待机状态
+test.c(102): warning:  #223-D: function "GetArrayToInt" declared implicitly
+                                           if(GetArrayToInt(a,i)<GetArrayToInt(b,j) && s==168){
+test.c(104): warning:  #223-D: function "GetSum" declared implicitly
+                                                                LCD_ShowNum(170,110,GetSum(b,j,a,i,s),8,16);    
+test.c(108): warning:  #223-D: function "GetSum" declared implicitly
+                                                        LCD_ShowNum(170,110,GetSum(a,i,b,j,s),8,16);    
+test.c(300): warning:  #223-D: function "GetArrayToInt" declared implicitly
+                                LCD_ShowNum(170,50,GetArrayToInt(a,i),8,16);    
+test.c(311): warning:  #223-D: function "GetArrayToInt" declared implicitly
+                        LCD_ShowNum(170,90,GetArrayToInt(b,j),8,16);    
+test.c(22): warning:  #177-D: variable "t" was declared but never referenced
+        u16 t=0;        
+test.c(23): warning:  #550-D: variable "str" was set but never used
+        u8 *str=0;
+test.c(32): warning:  #177-D: variable "aSum" was declared but never referenced
+        u8 aSum=0;//a 对应的十进制的值
+test.c(33): warning:  #177-D: variable "bSum" was declared but never referenced
+        u8 bSum=0; //b 对应的十进制的值
+test.c(35): warning:  #550-D: variable "x" was set but never used
+        u8 x=0;
+test.c(36): warning:  #550-D: variable "y" was set but never used
+        u8 y=0;
+test.c(37): warning:  #177-D: variable "len" was declared but never referenced
+        u8 len; 
+test.c: 13 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling led.c...
+compiling ILI93xx.c...
+compiling remote.c...
+compiling wkup.c...
+..\..\..\..\dws\DEmo\HARDWARE\WKUP\wkup.c(137): warning:  #111-D: statement is unreachable
+                                                }break;
+..\..\..\..\dws\DEmo\HARDWARE\WKUP\wkup.c(140): warning:  #111-D: statement is unreachable
+                                                }break;
+..\..\..\..\dws\DEmo\HARDWARE\WKUP\wkup.c(144): warning:  #111-D: statement is unreachable
+                                                }break;
+..\..\..\..\dws\DEmo\HARDWARE\WKUP\wkup.c(147): warning:  #111-D: statement is unreachable
+                                                }break;
+..\..\..\..\dws\DEmo\HARDWARE\WKUP\wkup.c(151): warning:  #940-D: missing return statement at end of non-void function "GetSum"
+  }
+..\..\..\..\dws\DEmo\HARDWARE\WKUP\wkup.c: 5 warnings, 0 errors
+compiling beep.c...
+linking...
+Program Size: Code=23810 RO-data=6546 RW-data=28 ZI-data=1340  
+FromELF: creating hex file...
+"..\OBJ\TEST.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\admin\Desktop\arm程序V1.0\dwsV1.0\DEmo\USER\RTE
+  D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
